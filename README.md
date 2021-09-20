@@ -1,22 +1,12 @@
-# Flymin's Hackintosh profile on Thinkpad X1E
-
+# Hackintosh profile on Thinkpad X1E
+This is forked from https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme
 [![LICENSE](https://img.shields.io/badge/LICENSE-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) ![MacOS-10.15.7](https://img.shields.io/badge/MacOS-10.15.7-orange) ![BIOS:1.33](https://img.shields.io/badge/BIOS-1.33-brightgreen) ![OPENCORE:0.6.5](https://img.shields.io/badge/OPENCORE-0.6.5-yellow)
-
-## ❗️Announcement
-
-The Hackintosh accidentally woke my computer up during mid-night and got stuck (this happened in 2020.08 when I first trying to use opencore). The cpu kept working and caused a very high temperature for the whole night. After that my hardware is so unstable that after a few months, I cannot open it again. I reached several places trying to have someone fixed my motherboard IC. However, they all failed. Therefore, I decided to bought a real Macbook in order to not lose track of my research work.
-
-Therefore, sorry for all of you following this project. I will not update in the future. Hope your machine can work well and enjoy your hackintosh.
-
-Goodbye.
 
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/flymin/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
 
-- [20210105] Update opencore to 0.6.5 and kexts.
-- [20201219] I encounter various kinds of problems (hibernation & system stuck) everyday after I updated OC to 0.6.4. I tried to update BIOS to the latest version (1.33). My hackintosh just stays alive for two days. Hope it will keep fine for longer time.
-- [20201103] Update opencore to 0.6.3 and kexts.
+- [20-09-2021] Update opencore and kexts. Support MacOs Big sur 11
 
 ## ATTENTION
 
@@ -27,15 +17,15 @@ Goodbye.
 ## Hardware: Thinkpad X1 Extreme Gen 1
 
 - CPU: Core i7-8750H 2.2GHz
-- Memory: 16G 2667MHz DDR4
-- SSD1: intel 7600P SSDPEKKF256G8L
-- SSD2: Intel 760P  SSDPEKKW256G8
+- Memory: 32G 2667MHz DDR4
+- SSD1: PM981 (Window 10)
+- SSD2: WD black SN750 (MacOs)
 - Display: 1080p, non-touch
 - Graphics: Intel UHD Graphics 630
-- Wireless: Broadcom BCM943602CS
+- Wireless: Intel 9560
 - Sound card: Realtek ALC285
-- BIOS: v1.33
-- OS: OS X Catalina 10.15.7
+- BIOS: v1.36
+- OS: OS X Catalina 11.5.2
 
 ## Result
 
